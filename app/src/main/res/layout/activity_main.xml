@@ -71,6 +71,11 @@
         android:text="SUBMIT"
         android:id="@+id/btnSubmit"
         android:background="#52C857"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenSecondActivity"
+        android:id="@+id/OpenSecondActivity"/>
 
 
 </LinearLayout>
