@@ -32,9 +32,8 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        >https://github.com/cornel-kim/October-Android/blob/master/app/src/main/res/layout/activity_main.xml
-        <TextView
+        android:layout_marginTop="20dp">
+     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Please select your gender"
@@ -56,6 +55,16 @@
             android:id="@+id/rdOthers"/>
 
     </RadioGroup>
+    <CheckBox
+        android:id="@+id/chConfirm"
+        android:layout_width="match_parent"
+        android:text="Do you agree with our terms and conditions?"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/chSubs"
+        android:layout_width="match_parent"
+        android:text="Would you like to subscribe to our subscriptions?"
+        android:layout_height="wrap_content"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
