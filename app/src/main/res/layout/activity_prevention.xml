@@ -5,14 +5,10 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
-
-    <TextView
+    tools:context=".prevention">
+    <WebView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Welcome to our second activity"
-        android:textSize="30dp"
-        android:textColor="#ED0A0A"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/htmlweb"/>
 
 </LinearLayout>
