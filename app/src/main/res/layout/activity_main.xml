@@ -81,6 +81,11 @@
         android:layout_height="wrap_content"
         android:text="prevention "
         android:id="@+id/btnPrevention"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospitals "
+        android:id="@+id/btnHosi"/>
 
 
 </LinearLayout>
