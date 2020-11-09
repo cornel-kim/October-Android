@@ -31,7 +31,7 @@ class contactus : AppCompatActivity() {
 //            val i = Intent(Intent.ACTION_PICK)
 //            i.type = "image/*"
 //            startActivity(i )
-            val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+            val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)//camera capture
             startActivity(intent)
         }
         btnShare.setOnClickListener {
