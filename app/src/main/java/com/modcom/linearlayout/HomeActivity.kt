@@ -25,5 +25,11 @@ class HomeActivity : AppCompatActivity() {
             //android toast
             Toast.makeText(this, "opening list view", Toast.LENGTH_SHORT).show()
         }
+        ImplicitIntents.setOnClickListener {
+            val i = Intent(this, contactus::class.java)
+            startActivity(i)
+            //android toast
+            Toast.makeText(this, "opening list view", Toast.LENGTH_SHORT).show()
+        }
     }
 }

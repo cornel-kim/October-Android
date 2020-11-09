@@ -86,6 +86,11 @@
         android:layout_height="wrap_content"
         android:text="Hospitals "
         android:id="@+id/btnHosi"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit intents "
+        android:id="@+id/ImplicitIntents"/>
 
 
 </LinearLayout>
